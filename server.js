@@ -16,7 +16,7 @@ server.use(restify.plugins.bodyParser());
 
 // Mensagem de boas-vindas
 server.get("/", (req, res, next) => {
-    res.send({ mensagem: "Bem-vindo à API da Lojinha" });
+    res.send({ mensagem: "Bem-vindo à API do Mercadinho" });
     return next();
 });
 
